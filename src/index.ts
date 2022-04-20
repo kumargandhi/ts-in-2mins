@@ -15,5 +15,3 @@ let currentUser: User = {
   email: 'kumargandhi30@gmail.com',
   displayName: 'Kumar Gandhi'
 };
-
-currentUser.
