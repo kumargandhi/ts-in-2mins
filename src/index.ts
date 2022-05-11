@@ -12,6 +12,6 @@ export interface User {
 
 let currentUser: User = {
   id: '123',
-  email: 'kumargandhi30@gmail.com',
+  email: 'kumargandhi@gmail.com',
   displayName: 'Kumar Gandhi'
 };
