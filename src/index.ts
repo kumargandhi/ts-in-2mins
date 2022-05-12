@@ -1,17 +1,9 @@
+import {Arrays} from "./arrays";
 
 export function hello(world: string = 'world'): string {
   return `Hello ${world}! `;
 }
 
-export interface User {
-  id: string;
-  email: string;
-  displayName: string;
-  photoURL?: string;
-}
+console.log('index file - ' + hello());
 
-let currentUser: User = {
-  id: '123',
-  email: 'kumargandhi@gmail.com',
-  displayName: 'Kumar Gandhi'
-};
+const arrays = new Arrays();
