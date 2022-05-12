@@ -8,5 +8,8 @@ Try code samples on JavaScript / TypeScript.
 TypeScript project setup was done using this [post](https://www.digitalocean.com/community/tutorials/typescript-new-project).
 
 ## Scripts
-* `$npm run compile`, compiles TypeScript to JavaScript.
-* `$npm run execute`, executes the TypeScript code. You can see the console outputs on the terminal itself.
+* `npm run compile`, compiles TypeScript to JavaScript.
+* `npm run execute`, executes the TypeScript code. You can see the console outputs on the terminal itself.
+* `npm run start`, compiles and executes the TypeScript code.
+* `npm run lint`, lints your code and shows errors.
+* `npm run lint -- --fix`, lints and fixes issues.

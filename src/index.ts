@@ -1,7 +1,7 @@
-import {Arrays} from "./arrays";
+import { Arrays } from './arrays';
 
-export function hello(world: string = 'world'): string {
-  return `Hello ${world}! `;
+export function hello(world = 'world'): string {
+    return `Hello ${world}! `;
 }
 
 console.log('index file - ' + hello());

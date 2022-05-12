@@ -1,19 +1,18 @@
-import {Reduce} from "./reduce";
-import {Map} from "./map";
-import {ForEach} from "./forEach";
-import {ModuleWrapper} from "../common/sample-wrapper";
+import { Reduce } from './reduce';
+import { Map } from './map';
+import { ForEach } from './forEach';
+import { ModuleWrapper } from '../common/sample-wrapper';
 
 export class Arrays implements ModuleWrapper {
+    constructor() {
+        this.execute();
+    }
 
-  constructor() {
-    this.execute();
-  }
+    execute() {
+        const reduce = new Reduce();
 
-  execute() {
-    let reduce = new Reduce();
+        const map = new Map();
 
-    let map = new Map();
-
-    let forEach = new ForEach();
-  }
+        const forEach = new ForEach();
+    }
 }
