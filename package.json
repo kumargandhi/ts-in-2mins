@@ -20,6 +20,7 @@
         "compile": "npx tsc src/**/**.ts",
         "compile2": "npx tsc --project ./tsconfig.json",
         "execute": "npx ts-node src/index.ts",
+        "single-file": "npx ts-node src/common/samples.ts",
         "start": "npx tsc src/**/**.ts && npx ts-node src/index.ts",
         "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
         "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
